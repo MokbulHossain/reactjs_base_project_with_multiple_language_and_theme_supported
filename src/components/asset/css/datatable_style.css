@@ -1,0 +1,67 @@
+
+.dataTables_filter label{
+  color: #333645;
+  display: inline;
+}
+.dataTables_filter{
+  float: right;
+  width: 45%;
+  margin-top: -3%;
+  padding-bottom: 10px;
+}
+.datatable_wrapper{
+  max-width: 96%;
+  margin-left: 2%;
+}
+.dataTables_info{
+  color:#616161;
+}
+input[type=search]{
+  background-color: #333645;
+  border-color: #707070;
+}
+.dataTables_length label{
+  color: #333645;
+}
+
+.dataTables_length label select{
+  background-color: #333645;
+  color: #87888a;
+  border-color: #707070;
+}
+.pagination li a {
+  background-color: #333645 !important;
+  border-color: #707070 !important;
+  color: #9E9E9E !important;
+}
+.pagination .active a{
+    background-color: #616161 !important;
+    color: #969696 !important;
+  
+}
+.dataTables_length label select option {
+  background-color: #333645;
+  color: #dee2e6;
+  border-color: #dee2e6;
+}
+
+.wrapper .table thead tr th:nth-child(1),
+.wrapper .table colgroup col:nth-child(1),
+.wrapper .table tbody tr td:nth-child(1) {
+      display: none;
+}
+
+.table th, .table td{
+  text-align: center;
+  border-top: 1px solid #383A47 !important;
+}
+.table thead th{
+  text-align: center;
+  border-bottom: 1px solid #383A47 !important;
+}
+tbody + thead{
+  display: none;
+}
+.css-79elbk{
+   width:98%;
+}
