@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-lock-screen__ui {
+  width: 300px;
+  position: fixed;
+  border: 4px solid #333;
+  background: #fff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 4px;
+  top: calc(30% - 152px / 2);
+  left: calc(49% - 300px / 2);
+
+  button {
+    padding: 5px 15px;
+    border: 0;
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

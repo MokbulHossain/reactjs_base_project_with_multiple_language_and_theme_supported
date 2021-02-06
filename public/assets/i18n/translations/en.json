@@ -1,5 +1,6 @@
 {
     "+88":"+88",
     "hello.label": "Hello",
-    "thankyou.label": "Thank you"
+    "thankyou.label": "Thank you",
+    "phone.placeholder":"Phone No"
   }

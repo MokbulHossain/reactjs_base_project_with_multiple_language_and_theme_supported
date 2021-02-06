@@ -106,7 +106,7 @@ class LogIn extends Component {
                        <InputGroup.Text id="basic-addon1" style={{fontSize:'11px'}}>{t(window.PHONE_PREFIX)}</InputGroup.Text>
                      </InputGroup.Prepend>
                      <FormControl
-                       placeholder="Phone No"
+                       placeholder={t('phone.placeholder')}
                        aria-label="Username"
                        aria-describedby="basic-addon1"
                        value={this.state.username} 
@@ -154,9 +154,9 @@ class LogIn extends Component {
        </form>
  
        <Row>
-       <Col md={6}><a style={{color:'white',textDecoration:'underline'}} href={window.BASE_URL+'supplier_account_create'}>Create an Account</a></Col>
+       <Col md={6}><a style={{color:'white',textDecoration:'underline',fontSize:'13px'}} href={window.BASE_URL+'supplier_account_create'}>Create an Account</a></Col>
       
-       <Col md={6}><a style={{color:'white',textDecoration:'underline',cursor:'pointer'}} onClick={this.showModal} >Forget Password?</a></Col>
+       <Col md={6}><a style={{color:'white',textDecoration:'underline',cursor:'pointer',fontSize:'13px'}} onClick={this.showModal} >Forget Password?</a></Col>
        
        </Row>
  
